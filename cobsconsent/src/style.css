@@ -14,6 +14,12 @@ h1 {
     margin: 0 auto;
 }
 
+#tos {
+    /*'overflow-y' comes from "DarkCode" on YouTube*/
+    overflow-y: scroll;
+    max-height: 2cm;
+}
+
 #rightSide {
     width: 33%;
     float: right;
