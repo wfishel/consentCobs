@@ -1,0 +1,24 @@
+h1 {
+    color: blue;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#leftSide {
+    width: 33%;
+    float: left;
+}
+
+#middle {
+    width: 33%;
+    margin: 0 auto;
+}
+
+#rightSide {
+    width: 33%;
+    float: right;
+}
+
+body {
+    background-image: url(https://wallpaperaccess.com/full/3087807.jpg)
+}
