@@ -30,6 +30,8 @@ body {
     background-image: url(https://wallpaperaccess.com/full/3087807.jpg)
 }
 
-.columns {
-    align-items: center;
+button {
+    background-color: green;
+    color: black;
+    float: right;
 }
