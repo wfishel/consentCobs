@@ -4,19 +4,26 @@ h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+h3 {
+    text-align: center;
+}
+
 #leftSide {
     width: 33%;
     float: left;
-    
+    display: flex;
+    flex-direction: column;
+    margin: auto;
 }
 
 #middle {
     width: 33%;
-    margin: 0 auto;
+    margin: auto;
+    font-size: small;
 }
 
 #tos {
-    /*'overflow-y' comes from "DarkCode" on YouTube*/
+    /* I learned about 'overflow-y' from "DarkCode" on YouTube*/
     overflow-y: scroll;
     max-height: 2cm;
 }
@@ -24,6 +31,14 @@ h1 {
 #rightSide {
     width: 33%;
     float: right;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+img {
+    width: 200px;
+    align-self: center;
 }
 
 body {
@@ -34,4 +49,7 @@ button {
     background-color: green;
     color: black;
     float: right;
+    width: 4cm;
+    height: 2cm;
+    font-size: 25px;
 }
