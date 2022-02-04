@@ -7,6 +7,7 @@ h1 {
 #leftSide {
     width: 33%;
     float: left;
+    
 }
 
 #middle {
@@ -27,4 +28,8 @@ h1 {
 
 body {
     background-image: url(https://wallpaperaccess.com/full/3087807.jpg)
+}
+
+.columns {
+    align-items: center;
 }
